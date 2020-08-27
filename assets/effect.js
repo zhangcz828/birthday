@@ -160,7 +160,7 @@ $('document').ready(function(){
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
-			$('#story').fadeIn(3000);
+			$('#story').fadeIn(6000);
 		});
 	});
 	
